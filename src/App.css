@@ -1,22 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.button {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline-style: none;
+}
+
+.selected {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline-style: none;
+  background-color: #1d7cd2;
+}
+
+.button:hover {
+  background-color: #1d7cd2;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.last {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+.buy {
+  margin-left: 20px;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  background-color: #1d7cd2;
+  padding: 4px 8px;
+  height: 4vh;
+  outline-style: none;
+  cursor: pointer;
+}
+
+img {
+  width: 400px;
+  height: 320px;
+}
+
+.price {
+  display: flex;
+  align-items: center;
 }
