@@ -66,3 +66,15 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+# CHOOSE YOUR TESLA
+
+## Description
+
+This a little project to appreciate simply React whith the hooks. The user can configure his favorite model and the price change in terms of options chosen.
+
+## How it works ?
+
+The user has two choices, the battery and the color, so we have to create two states. Warning ! The final price is not a state, but its value depend user choices. When the user click on a button, we change the state value and the final price (let total;) is updated.
+For example, the tesla model with the battery _Grande autonomie_ cost 90 700€ and the color _white_ cost 0 €. If the user click on _Grande autonomie_ and on _white_, we change their values in _0_. If "battery" === 0 and "color" === 0, "total" === 90700.
+For the image, we use to a simple ternary, if the "color" === 0 we return the white model, else the black model.
